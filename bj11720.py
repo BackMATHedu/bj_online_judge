@@ -1,3 +1,4 @@
+# 라이브러리 세팅
 import sys
 input = sys.stdin.readline
 
@@ -5,7 +6,7 @@ input = sys.stdin.readline
 N = int(input())
 array_num = input().strip()
 
-# 실행 코드
+# 구현
 result = 0
 for i in array_num:
     result += int(i)
